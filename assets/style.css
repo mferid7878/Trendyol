@@ -1,0 +1,171 @@
+
+.container{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.card{
+    box-shadow: 0px 0px 14px 1px rgba(103,128,209, 0.50);
+}
+.card_wrapper{
+    display: flex;
+}
+.card_header {
+    background-position: top;
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.img_1{
+    background-image: url(https://cdn.dsmcdn.com/mnresize/1200/1800/ty1577/prod/QC/20241002/18/cf463451-9704-32c3-adfc-a126be2bd248/1_org_zoom.jpg);
+}
+.img_2{
+    background-image: url(https://cdn.dsmcdn.com/ty1577/prod/QC/20241001/17/5d57e0ea-f4ca-3602-b157-25747df28328/1_org_zoom.jpg);
+}
+.card_header>img{
+    top: 20px;
+    width: 230px;
+    margin-left: 13px;
+}
+.row_1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.heart{
+    background-color: rgb(255, 255, 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 14px 1px rgba(103,128,209, 0.50);
+}
+
+.fa-heart:{
+    color: red;
+    background-color: aqua;
+    border-radius: 50%
+  
+}
+.row_2{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 230px;
+}
+.sponsorlu{
+    padding: 1px 8px;
+    background-color: gray;
+    border-radius: 15px;
+    color: rgb(32, 32, 32);
+    font-size: 12px;
+    height: 20px;
+}
+.carusel{
+    width: 60px;
+    height: 16px;
+    background-color: #8a8888;
+    border-radius: 15px;
+    opacity: 0.7;
+    display: flex;
+    gap: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.carusel div{
+    width: 7px;
+    height: 7px;
+    background-color: #fff;
+    border-radius: 50%;
+}
+.colors{
+    border-radius: 20px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    height: 25px;
+}
+.color{
+    width: 15px ;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #a77837;
+}
+.number p{
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(24, 24, 24);
+}
+.product_info{
+   padding: 10px 15px 0;
+}
+.product_info span{
+    font-weight: 700;
+    font-size: 18px;
+}
+.product_situation{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.product_situation p{
+    margin-left: 5px    ;
+}
+.product_situation span{
+    color:#f27a1a;
+}
+.rateing{
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    font-size: 12px;
+}
+.price{
+    display: flex;
+    color: #f27a1a;
+}
+.price h6{
+  font-size: 16px;
+  padding: 0 15px;
+}
+.price p{
+    font-size: 12px;
+}
+.card_action{
+    display: flex;
+    gap: 5px;
+    padding: 10px;
+}
+.etiket{
+    display: flex;
+    align-items: center;
+    background-color: #fff6ee;
+    border-radius: 20px;
+    width:100px;
+    font-weight: 700px;
+    font-size: 11px;
+   
+}
+.video{
+    display: flex;
+    align-items: center;
+    background-color: #ebf5ff;
+    border-radius: 20px;
+    width: 100px;
+    font-weight: 700px;
+    font-size: 11px;
+}
+.kupon_firsati{
+    display: flex;
+    align-items: center;
+    background-color:#fff0f5;
+    border-radius: 20px;
+    width: 100px;
+    font-weight: 700px;
+    font-size: 11px;
+}
